@@ -18,11 +18,13 @@ input {
 }
 body {
   font-family: Verdana;
-  background: linear-gradient(to right, #580563, #1300e8);
+  background: linear-gradient(to right, #280463, #1300e8);
   margin:0;
   padding:0;
     }
-    
+.box {
+   border-radius:5px;
+}
 header {
     grid-area:header;
     background:#ffffff;
