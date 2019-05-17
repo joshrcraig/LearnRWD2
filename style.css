@@ -1,0 +1,99 @@
+/*Project 2 - No MEDIA QUERIES*/
+
+img{
+    max-width:100%; /*keep this in case you add pictures*/
+	}
+
+body {
+  font-family: Verdana;
+  background: linear-gradient(to right, lightgreen, teal);
+  margin:0;
+    }
+    
+header {
+    grid-area:header;
+    background:rgba(0,0,0,.2);
+    padding:5px;
+    text-align:center;
+    }
+
+header h1 {
+     font-size:5vw;
+     color:mediumspringgreen;
+     font-family:Impact;
+     text-shadow: 2px 2px 5px navy;
+     margin: 0;
+}
+
+header h3 {
+    font-size:2vw;
+    color:navy;
+    margin:0;
+}
+nav {
+    grid-area:nav;
+    background:rgba(0,0,0,.2);
+    }
+    
+nav ul {
+   padding:10px;
+   margin:0;
+}
+
+nav li {
+    padding:10px 10px;
+    list-style-type:none;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+nav a {
+    text-decoration:none;
+    color:navy;
+}
+
+a:hover {
+    color:white;
+}
+main {
+    grid-area:main;
+    background:rgba(0,0,0,.2);
+    padding:5px;
+    }
+
+main h2 {
+    text-align:center;
+    color:navy;
+    margin:1%;
+}
+main p {
+    color:white;
+    padding:1% 2%;
+    font-size:1em;
+}
+
+footer {
+    grid-area:footer;
+    background:rgba(0,0,0,.2);
+    padding:5px;
+    text-align:center;
+    }
+
+footer p {
+     font-size:1em;
+     color:white;
+     margin:0;
+}
+
+
+/*------------------------------Grid Container----------------------------------*/
+.container1 { /*for index.html*/
+  display: grid;
+  grid-template-columns:auto 1fr;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+    }

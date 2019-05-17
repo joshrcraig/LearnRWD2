@@ -1,0 +1,43 @@
+/*This is for Project 1*/
+* {
+    padding:20px; /*this is just to space everything out in my example*/
+}
+
+img{
+    max-width:100%; /*keep this in case you add pictures*/
+	}
+	
+.header {
+    background-color:red;
+    grid-area:header;
+    }
+
+.nav {
+    background-color:blue;
+    grid-area:nav;
+    }
+
+.main {
+    background-color:yellow;
+    grid-area:main;
+    }
+
+.aside {
+    background-color:green;
+    grid-area:aside;
+    }
+
+.footer {
+    background-color:purple;
+    grid-area:footer;
+    }
+
+/*------------------------------Mobile firstlayout-------------------------------*/
+.container1 { /*for index.html*/
+  display: grid;
+  grid-template-columns:25% auto; /*only 1 column needed on mobile*/
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+    }
