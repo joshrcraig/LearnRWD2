@@ -32,7 +32,7 @@ header {
 
 header h1 {
      font-size:5vw;
-     color:#1155a8;
+     color:#3217ff;
      font-family:Impact;
      text-shadow: 2px 2px 5px #ab231b;
      margin: 0;
@@ -65,7 +65,7 @@ a:hover {
 }
 main {
     grid-area:main;
-    background:#1155a8;
+    background:#3217ff;
     padding:5px;
     }
 
