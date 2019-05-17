@@ -25,7 +25,7 @@ body {
     
 header {
     grid-area:header;
-    background:#000000CC;
+    background:#ffffff;
     padding:5px;
     text-align:center;
     }
@@ -45,7 +45,7 @@ header h3 {
 }
 nav {
     grid-area:nav;
-    background:#000000CC;
+    background:#00f51d;
     }
 
 nav li {
@@ -65,7 +65,7 @@ a:hover {
 }
 main {
     grid-area:main;
-    background:#0000003C;
+    background:#1981ff;
     padding:5px;
     }
 
@@ -82,7 +82,7 @@ main p {
 
 footer {
     grid-area:footer;
-    background:#0000003C;
+    background:#ab231b;
     padding:5px;
     text-align:center;
     }
@@ -120,7 +120,7 @@ figure img {
 
 aside {
     grid-area:aside;
-    background:rgba(0,0,0,.2);
+    background:#ff6a00;
     padding:5px;
 }
 
