@@ -27,7 +27,7 @@ body {
 }
 header {
     grid-area:header;
-    background:#3217ff;
+    background:#ab231b;
     padding:5px;
     text-align:center;
     }
@@ -84,7 +84,7 @@ main p {
 
 footer {
     grid-area:footer;
-    background:#ab231b;
+    background:#3217ff;
     padding:5px;
     text-align:center;
     }
