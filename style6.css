@@ -2,7 +2,7 @@
 
 img{
     max-width:100%; /*keep this in case you add pictures*/
-	}
+}
 
 audio {
     max-width:100%; /*Must be set or you'll get a scrollbar*/
@@ -16,21 +16,28 @@ video { /*Added this for the DESTINATION page video */
 input {
     max-width:100%;
 }
+
 body {
   font-family: Verdana;
   background: linear-gradient(to right, #280463, #1300e8);
   margin:0;
   padding:0;
-    }
+}
+
 .box {
    border-radius:5px;
 }
+
+a:hover {
+    color:white;
+}
+
 header {
     grid-area:header;
     background:#ab231b;
     padding:5px;
     text-align:center;
-    }
+}
 
 header h1 {
      font-size:5vw;
@@ -65,9 +72,6 @@ nav a:hover {
     text-shadow: 2px 2px 5px navy;
 }
 
-a:hover {
-    color:white;
-}
 main {
     grid-area:main;
     background:#ffffff;
