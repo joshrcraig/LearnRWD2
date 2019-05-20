@@ -67,17 +67,17 @@ a:hover {
 }
 main {
     grid-area:main;
-    background:#3217ff;
+    background:#000000;
     padding:5px;
     }
 
 main h2 {
     text-align:center;
-    color:navy;
+    color:#3217ff;
     margin:1%;
 }
 main p {
-    color:white;
+    color:navy;
     padding:1% 2%;
     font-size:1em;
 }
