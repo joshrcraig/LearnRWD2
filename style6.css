@@ -35,10 +35,25 @@ a:hover {
 header {
     grid-area:header;
     background:#ab231b;
-    padding:5px;
     text-align:center;
 }
 
+.headerpic {
+    grid-area:headerpic;
+    margin:auto 0;
+    max-height:12em; /*Note that the height and width may need to be adjusted for your image*/
+    }
+
+.headertext {
+    grid-area:headertext;
+    }
+    
+.headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
+    display:grid;
+    grid-template-columns:30% auto;
+    grid-template-areas:
+    "headerpic headertext"
+    }
 header h1 {
      font-size:5vw;
      color:#ffffff;
