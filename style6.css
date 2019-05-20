@@ -69,7 +69,7 @@ nav a {
     color:#ffffff;
 }
 nav a:hover {
-    color:0000B0;
+    text-shadow: 2px 2px 5px #3217ff;
 }
 
 main {
