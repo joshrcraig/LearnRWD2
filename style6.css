@@ -54,7 +54,7 @@ header h3 {
 }
 nav {
     grid-area:nav;
-    background:#00b515;
+    background:#00D619;
     }
 
 nav li {
@@ -70,6 +70,7 @@ nav a {
 }
 nav a:hover {
     text-shadow: 2px 2px 5px navy;
+    color:#000094
 }
 
 main {
