@@ -35,7 +35,6 @@ a:hover {
 header {
     grid-area:header;
     background:#ab231b;
-    text-align:center;
 }
 
 .headerpic {
@@ -50,6 +49,7 @@ header {
     
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
     display:grid;
+    justify-items: center;
     grid-template-columns:30% auto;
     grid-template-areas:
     "headerpic headertext"
