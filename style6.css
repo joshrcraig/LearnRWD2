@@ -27,7 +27,7 @@ body {
 }
 header {
     grid-area:header;
-    background:#ffffff;
+    background:#3217ff;
     padding:5px;
     text-align:center;
     }
@@ -67,7 +67,7 @@ a:hover {
 }
 main {
     grid-area:main;
-    background:#000000;
+    background:#ffffff;
     padding:5px;
     }
 
