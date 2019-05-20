@@ -39,7 +39,7 @@ header {
 
 .headerpic {
     grid-area:headerpic;
-    margin:auto 0;
+    margin:auto 5px;
     max-height:10em; /*Note that the height and width may need to be adjusted for your image*/
     }
 
@@ -51,7 +51,7 @@ header {
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
     display:grid;
     justify-items: center;
-    grid-template-columns:30% auto;
+    grid-template-columns:25% auto;
     grid-template-areas:
     "headerpic headertext"
     }
