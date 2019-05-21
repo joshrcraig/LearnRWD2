@@ -51,7 +51,7 @@ header {
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
     display:grid;
     justify-items: center;
-    grid-template-columns:25% auto;
+    grid-template-columns:20% auto;
     grid-template-areas:
     "headerpic headertext"
     }
