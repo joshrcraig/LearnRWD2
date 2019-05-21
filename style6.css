@@ -40,7 +40,7 @@ header {
 .headerpic {
     grid-area:headerpic;
     padding:5px;
-    max-height:10em; /*Note that the height and width may need to be adjusted for your image*/
+    max-height:8em; /*Note that the height and width may need to be adjusted for your image*/
     }
 
 .headertext {
