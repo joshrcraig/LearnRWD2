@@ -40,7 +40,7 @@ header {
 .headerpic {
     grid-area:headerpic;
     padding:5px;
-    max-height:8em; /*Note that the height and width may need to be adjusted for your image*/
+    height:10vmax; /*Note that the height and width may need to be adjusted for your image*/
     }
 
 .headertext {
@@ -51,6 +51,7 @@ header {
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
     display:grid;
     justify-items: center;
+    align-items:center;
     grid-template-columns:25% auto;
     grid-template-areas:
     "headerpic headertext"
