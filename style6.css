@@ -249,7 +249,7 @@ input {
 
 
 /*------------------------------Grid Container----------------------------------*/
-.container1 { /*for index.html, destination.html, contact.html*/
+.container1 { /*for index.html, tests.html, contact.html*/
   display: grid;
   grid-template-columns:auto 1fr;
   grid-gap:.5em;
@@ -331,7 +331,7 @@ input {
 
 /*-----------------------Tablet Media Query------------------------*/
 @media only screen and (min-width: 480px)  {
-.container1 { /*for index.html, destination.html, contact.html*/
+.container1 { /*for index.html, tests.html, contact.html*/
   display: grid;
   grid-template-columns:auto 1fr;
   grid-gap:.5em;
@@ -406,7 +406,7 @@ input {
 
 /*-----------------------Desktop Media Query------------------------*/
 @media only screen and (min-width: 960px)  {
-.container1 { /*for index.html, destination.html, contact.html*/
+.container1 { /*for index.html, tests.html, contact.html*/
   display: grid;
   grid-template-columns:auto 1fr;
   grid-gap:.5em;
