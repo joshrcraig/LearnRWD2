@@ -248,7 +248,7 @@ input {
 
 
 /*------------------------------Grid Container----------------------------------*/
-.container { /*for destination.html, contact.html*/
+.container1 { /*for index.html, destination.html, contact.html*/
   display: grid;
   grid-template-columns:auto 1fr;
   grid-gap:.5em;
@@ -260,7 +260,7 @@ input {
     "footer";
     }
 
-.container1 { /*for index.html*/
+.container2 { /*for index2.html*/
   display: grid;
   grid-template-columns:100%;
   grid-gap:.5em;
@@ -269,10 +269,11 @@ input {
     "header"
     "nav"
     "main"
+    "aside"
     "footer";
 }
 
-.container2 { /*for blog.html*/
+.container3 { /*for blog.html*/
   display: grid;
   grid-template-columns:100%;
   grid-gap:.5em;
@@ -287,7 +288,7 @@ input {
     "footer";
 } 
     
-.container3 { /*for special.html*/
+.container4 { /*for special.html*/
   display: grid;
   grid-template-columns:100%;
   grid-gap:.5em;
@@ -329,7 +330,7 @@ input {
 
 /*-----------------------Tablet Media Query------------------------*/
 @media only screen and (min-width: 480px)  {
-.container { /*for destination.html, contact.html*/
+.container1 { /*for index.html, destination.html, contact.html*/
   display: grid;
   grid-template-columns:auto 1fr;
   grid-gap:.5em;
@@ -340,7 +341,7 @@ input {
     "footer footer";
     }
     
-.container1 { /*for index.html*/
+.container2 { /*for index2.html*/
   display: grid;
   grid-template-columns:auto 1fr;
   grid-gap:.5em;
@@ -351,7 +352,7 @@ input {
     "footer footer";
     }
     
-.container2 { /*for blog.html*/
+.container3 { /*for blog.html*/
   display: grid;
   grid-template-columns:auto 1fr;
   grid-gap:.5em;
@@ -365,7 +366,7 @@ input {
     "footer footer";
 }    
     
-.container3 { /*for special.html*/
+.container4 { /*for special.html*/
   display: grid;
   grid-template-columns: auto 1fr;
   grid-gap:.5em;
@@ -403,7 +404,7 @@ input {
 
 /*-----------------------Desktop Media Query------------------------*/
 @media only screen and (min-width: 960px)  {
-.container { /*for destination.html, contact.html*/
+.container1 { /*for index.html, destination.html, contact.html*/
   display: grid;
   grid-template-columns:auto 1fr;
   grid-gap:.5em;
@@ -414,7 +415,7 @@ input {
     "footer footer";
     }
     
-.container1 { /*for index.html*/
+.container2 { /*for index.html*/
   display: grid;
   grid-template-columns:auto 1fr;
   grid-gap:.5em;
@@ -425,7 +426,7 @@ input {
     "footer footer";
     }
 
-.container2 { /*for blog.html*/
+.container3 { /*for blog.html*/
   display: grid;
   grid-template-columns:auto 1fr 1.5fr;
   grid-gap:.5em;  margin:1%;
@@ -437,7 +438,7 @@ input {
     "footer footer footer";
     }
     
-.container3 { /*for special.html*/
+.container4 { /*for special.html*/
   display: grid;
   grid-template-columns:auto 1fr;
   grid-gap:.5em;
