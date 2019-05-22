@@ -217,17 +217,17 @@ form {
     grid-area:div2;
 }
 .call {
-    color:navy;
+    color:#0000b0;
     text-align:center;
     font-size:2em;
-    background-color:darkseagreen;
+    background-color:#ffffff;
     width:60%;
     padding: 5px 0 0 0;
     margin:10px auto 0 auto;
 }
 .phone{
-    color:darkseagreen;
-    background-color:navy;
+    color:#ffffff;
+    background-color:#0000b0;
     padding:5px;
     text-align:center;
     font-size:.75em;
