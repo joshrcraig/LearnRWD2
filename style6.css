@@ -28,10 +28,6 @@ body {
    border-radius:5px;
 }
 
-a:hover {
-    color:white;
-}
-
 header {
     grid-area:header;
     background:#ab231b;
@@ -107,6 +103,9 @@ main p {
     font-size:1em;
 }
 
+main a {
+ color:navy;   
+}
 footer {
     grid-area:footer;
     background:#400057;
@@ -151,7 +150,7 @@ aside {
 }
 
 aside a {
-    color:white;
+    color:#0000b0;
     font-size:20px;
 }
 
@@ -348,7 +347,8 @@ input {
   margin:1%;
   grid-template-areas:
     "header header"
-    "nav main"
+    "nav aside"
+    "main main"
     "footer footer";
     }
     
@@ -415,15 +415,15 @@ input {
     "footer footer";
     }
     
-.container2 { /*for index.html*/
+.container2 { /*for index2.html*/
   display: grid;
-  grid-template-columns:auto 1fr;
+  grid-template-columns:auto 1fr 25%;
   grid-gap:.5em;
   margin:1%;
   grid-template-areas:
-    "header header"
-    "nav main"
-    "footer footer";
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
     }
 
 .container3 { /*for blog.html*/
