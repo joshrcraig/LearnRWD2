@@ -172,18 +172,18 @@ aside h2 {
 }
 
 article {
-    background:rgba(0,0,0,.2);
+    background:#0000b0;
     padding:5px;
 }
 
 article h2 {
     text-align:center;
-    color:navy;
+    color:#ffffff;
     margin:1%;
 }
 
 article p {
-    color:white;
+    color:#ffffff;
     padding:1% 2%;
     font-size:1em;
 }
