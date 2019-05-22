@@ -35,6 +35,7 @@ a:hover {
 header {
     grid-area:header;
     background:#ab231b;
+    text-align:center;
 }
 
 .headerpic {
