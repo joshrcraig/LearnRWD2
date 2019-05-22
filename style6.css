@@ -97,6 +97,7 @@ main h2 {
     text-align:center;
     margin:1%;
 }
+
 main p {
     color:navy;
     padding:1% 2%;
@@ -106,6 +107,7 @@ main p {
 main a {
  color:navy;   
 }
+
 footer {
     grid-area:footer;
     background:#400057;
@@ -145,7 +147,7 @@ figure img {
 
 aside {
     grid-area:aside;
-    background:#E27600;
+    background:#e3b96b;
     padding:5px;
 }
 
