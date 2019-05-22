@@ -126,7 +126,6 @@ footer p {
 .fig2 {
     grid-area:fig2;
     background:rgba(0,0,0,.2);
- 
 }
 
 figure {
@@ -205,7 +204,7 @@ article p {
 }
 
 form {
-    background-color:darkseagreen;
+    background-color:#0000b0;
     width:90%;
     margin:auto;
     color:white;
@@ -239,9 +238,9 @@ input {
 }
 
 .button {
-  background-color: navy;
+  background-color: #A4C4FE;
   padding: 5px;
-  color: darkseagreen;
+  color: #0000b0;
   margin:10px 0 0 0;
   cursor:pointer;
 }
