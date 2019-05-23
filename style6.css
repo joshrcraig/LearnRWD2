@@ -24,7 +24,7 @@ body {
   padding:0;
 }
 
-header, nav, main, footer, aside, section, article, form {
+header, nav, main, footer, aside, section, article, form, .fig2 {
    border-radius:5px;
 }
 
@@ -127,7 +127,6 @@ footer p {
 .fig2 {
     grid-area:fig2;
     background:#ffffff;
-    border-radius:5px;
 }
 
 figure {
