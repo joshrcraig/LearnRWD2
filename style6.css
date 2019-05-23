@@ -127,6 +127,7 @@ footer p {
 .fig2 {
     grid-area:fig2;
     background:#ffffff;
+    border-radius:5px;
 }
 
 figure {
