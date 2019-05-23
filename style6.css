@@ -143,6 +143,7 @@ figcaption {
 figure img {
     margin-top:16px;
     max-width:20em;
+    border: 2px solid #0000b0;
 }
 
 aside {
