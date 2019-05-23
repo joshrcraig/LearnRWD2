@@ -141,7 +141,8 @@ figcaption {
 }
 
 figure img {
-    padding-top:10px;
+    margin-top:16px;
+    max-width:20em;
 }
 
 aside {
