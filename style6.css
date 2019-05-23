@@ -123,11 +123,10 @@ footer p {
 
 .fig1 {
     grid-area:fig1;
-    background:rgba(0,0,0,.1);
 }
 .fig2 {
     grid-area:fig2;
-    background:rgba(0,0,0,.2);
+    background:#ffffff;
 }
 
 figure {
@@ -137,7 +136,7 @@ figure {
 
 figcaption {
     padding:5px;
-    color:navy;
+    color:#00000b0;
     font-weight:bold;
 }
 
