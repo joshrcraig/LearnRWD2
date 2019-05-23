@@ -24,7 +24,7 @@ body {
   padding:0;
 }
 
-header, nav, main, footer, aside, section, article {
+header, nav, main, footer, aside, section, article, form {
    border-radius:5px;
 }
 
