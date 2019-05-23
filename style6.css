@@ -289,7 +289,7 @@ input {
     "footer";
 } 
     
-.container4 { /*for special.html*/
+.container4 { /*for about.html*/
   display: grid;
   grid-template-columns:100%;
   grid-gap:.5em;
@@ -368,7 +368,7 @@ input {
     "footer footer";
 }    
     
-.container4 { /*for special.html*/
+.container4 { /*for about.html*/
   display: grid;
   grid-template-columns: auto 1fr;
   grid-gap:.5em;
@@ -440,7 +440,7 @@ input {
     "footer footer footer";
     }
     
-.container4 { /*for special.html*/
+.container4 { /*for about.html*/
   display: grid;
   grid-template-columns:auto 1fr;
   grid-gap:.5em;
