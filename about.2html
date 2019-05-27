@@ -1,4 +1,4 @@
-<!--This is for Project 6-->
+<!--This is for Project 8-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,9 +12,12 @@
 </head>
  <body>
   <div class="container4">
-    <header>
+   <header class="headerwrapper">
+      <img class="headerpic" src="logo.png" alt="website logo">
+      <div class="headertext">
         <h1>Test Prep Pros</h1>
         <h3>Be ready for the ACT & SAT </h3>
+      </div>
     </header>
      <nav id="flex-nav">
        <a href="#" class="toggleNav">&#9776; Menu</a> <!--This will only be visible less than 480px wide-->
@@ -29,7 +32,7 @@
     
     <main> 
     <div class="nestedgrid">
-        <section class="special">
+        <section>
        <h2>About Us</h2>
         <p>Since 2013, Test Prep Pros have been helping local students put themselves in a position to be successful on college admissions tests such as the ACT and SAT.</p>
         <p>With over 30 certified teachers on our staff covering virtually every discipline imaginable, we have the manpower to meet every learners unique needs.</p>   
