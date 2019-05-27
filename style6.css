@@ -459,7 +459,7 @@ input {
     display:grid;
     grid-template-columns:2fr 1fr;
     grid-template-areas:
-    "special fig1";
+    "section fig1";
     }
     
 .nestedgrid2 {/*This is for the nested grid to allow the form to be split on contact.html*/
