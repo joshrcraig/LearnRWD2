@@ -381,10 +381,10 @@ input {
     "footer footer";
 }
     
-.nestedgrid { /*This is for the nested grid to allow Main and fig1 on special.html*/
+.nestedgrid { /*This is for the nested grid to allow section and fig1 to stack on about.html*/
     display:grid;
     grid-template-areas:
-    "special"
+    "section"
     "fig1";
 }
 
@@ -453,8 +453,9 @@ input {
     "footer footer";
     }
     
-.nestedgrid { /*This is for the nested grid to allow Main and fig1 on special.html*/
+.nestedgrid { /*This is for the nested grid to allow section and fig1 to be side by side on about.html*/
     display:grid;
+    grid-template-columns:2fr 1fr;
     grid-template-areas:
     "special fig1";
     }
