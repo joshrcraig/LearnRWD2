@@ -51,7 +51,7 @@ header {
     align-items:center;
     grid-template-columns:25% auto;
     grid-template-areas:
-    "headerpic headertext"
+    "headerpic headertext";
     }
 header h1 {
      font-size:5vw;
